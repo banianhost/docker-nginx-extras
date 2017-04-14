@@ -8,5 +8,5 @@ RUN apt-get update && \
             libnginx-mod-http-headers-more-filter \
             libnginx-mod-http-upstream-fair \
             libnginx-mod-http-cache-purge \
-            libnginx-mod-stream  &&
-    rm -rf /var/cache/apt && rm -rf /var/lib/apt
+            libnginx-mod-stream \
+    && rm -rf /var/cache/apt && rm -rf /var/lib/apt
