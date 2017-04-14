@@ -1,22 +1,33 @@
 # Nginx Extras on Ubuntu Zesty
-This is a fat nginx image which contains almost all nginx nice modules :)
+This nginx image contains almost all nginx nice modules using `nginx-extras` package. Compressed size is **71Mb** which is almost same size of library minimal image!
+
+## Get Image
+[Docker hub](https://hub.docker.com/r/banian/nginx-extras)
+
+```bash
+docker pull banian/nginx-extras
+```
+
+## Auto Builds
+New images are automatically built by each new library/ubuntu push.
 
 ## Whats included? 
 ([source](http://packages.ubuntu.com/zesty/nginx-extras))
-- libnginx-mod-http-auth-pam: PAM authentication module for Nginx
-- libnginx-mod-http-cache-purge: Purge content from Nginx caches
-- libnginx-mod-http-dav-ext: WebDAV missing commands support for Nginx
-- libnginx-mod-http-echo: Bring echo and more shell style goodies to Nginx
-- libnginx-mod-http-fancyindex: Fancy indexes module for the Nginx
-- libnginx-mod-http-geoip: GeoIP HTTP module for Nginx
-- libnginx-mod-http-headers-more-filter: Set and clear input and output headers for Nginx
-- libnginx-mod-http-image-filter: HTTP image filter module for Nginx
-- libnginx-mod-http-lua: Lua module for Nginx
-- libnginx-mod-http-perl: Perl module for Nginx
-- libnginx-mod-http-subs-filter: Substitution filter module for Nginx
-- libnginx-mod-http-uploadprogress: Upload progress system for Nginx
-- libnginx-mod-http-upstream-fair: Nginx Upstream Fair Proxy Load Balancer
-- libnginx-mod-http-xslt-filter: XSLT Transformation module for Nginx
-- libnginx-mod-mail: Mail module for Nginx
-- libnginx-mod-nchan: Fast, flexible pub/sub server for Nginx
-- libnginx-mod-stream: Stream module for Nginx
+
+- __libnginx-mod-http-auth-pam__: PAM authentication module for Nginx
+- __libnginx-mod-http-cache-purge__: Purge content from Nginx caches
+- __libnginx-mod-http-dav-ext__: WebDAV missing commands support for Nginx
+- __libnginx-mod-http-echo__: Bring echo and more shell style goodies to Nginx
+- __libnginx-mod-http-fancyindex__: Fancy indexes module for the Nginx
+- __libnginx-mod-http-geoip__: GeoIP HTTP module for Nginx
+- __libnginx-mod-http-headers-more-filter__: Set and clear input and output headers for Nginx
+- __libnginx-mod-http-image-filter__: HTTP image filter module for Nginx
+- __libnginx-mod-http-lua__: Lua module for Nginx
+- __libnginx-mod-http-perl__: Perl module for Nginx
+- __libnginx-mod-http-subs-filter__: Substitution filter module for Nginx
+- __libnginx-mod-http-uploadprogress__: Upload progress system for Nginx
+- __libnginx-mod-http-upstream-fair__: Nginx Upstream Fair Proxy Load Balancer
+- __libnginx-mod-http-xslt-filter__: XSLT Transformation module for Nginx
+- __libnginx-mod-mail__: Mail module for Nginx
+- __libnginx-mod-nchan__: Fast, flexible pub/sub server for Nginx
+- __libnginx-mod-stream__: Stream module for Nginx
