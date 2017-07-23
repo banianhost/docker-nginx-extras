@@ -7,4 +7,4 @@ RUN apt-get update && \
 
 EXPOSE 80
 VOLUME /var/www/html
-CMD "nginx -g 'daemon off;'"
+CMD nginx -g 'daemon off;'
