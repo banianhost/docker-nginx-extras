@@ -1,4 +1,4 @@
-# Nginx Extras
+# Nginx Extrasa + Google Page Speed Module
 
 This nginx image contains almost all nginx nice modules using `nginx-extras` package.
 
