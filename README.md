@@ -1,4 +1,4 @@
-# Nginx Extras + PageSpeed Module
+# Nginx Extras
 
 This nginx image contains almost all nginx nice modules using `nginx-extras` package.
 
@@ -17,9 +17,6 @@ docker pull banian/nginx-extras
 New images are automatically built by each new library/ubuntu push.
 
 ## Whats included? 
-
-[PageSpeed](https://www.modpagespeed.com)
-- Optimize your site automatically
 
 ([bionic/nginx-extras](http://packages.ubuntu.com/bionic/nginx-extras)) packages:
 
